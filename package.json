@@ -2,7 +2,7 @@
   "name": "talview-backend-test",
   "version": "1.0.0",
   "description": "",
-  "main": "handler.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 100000",
     "lint": "./node_modules/.bin/eslint .",
