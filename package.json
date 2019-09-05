@@ -1,0 +1,47 @@
+{
+  "name": "talview-backend-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "mocha --timeout 100000",
+    "lint": "./node_modules/.bin/eslint .",
+    "fix": "./node_modules/.bin/eslint --fix .",
+    "dev": "./node_modules/.bin/nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshD12/talview-backend-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnshD12/talview-backend-test/issues"
+  },
+  "homepage": "https://github.com/AnshD12/talview-backend-test#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "app-root-path": "^2.2.1",
+    "aws-sdk": "^2.523.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "mongoose": "^5.5.3",
+    "multer": "^1.4.2",
+    "rimraf": "^3.0.0",
+    "s3-batch-upload": "^1.2.0",
+    "serverless-http": "^2.3.0",
+    "winston": "^3.2.1"
+  }
+}
