@@ -1,6 +1,10 @@
 # steps to run the application. #
 * application runs on node version 10.16.0 and npm version 6.9.0
 
+### prerequisite ###
+* please make sure you have  ffmpeg and ffprobe (https://ffbinaries.com/downloads) installed on your system
+and the environment variable path is set
+
 ### steps to run using nodemon ###
 
 * npm install
