@@ -3,7 +3,7 @@ const appRoot = require('app-root-path');
 // modules
 const { createScreenshots } = require(`${appRoot}/app/modules/createScreenshots`);
 // constants
-const appConstants = require(`${appRoot}/constants/AppConstants`);
+const appConstants = require(`${appRoot}/constants/appConstants`);
 
 const storage = multer.diskStorage({
   destination: 'uploads/',
