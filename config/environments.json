@@ -1,0 +1,58 @@
+{
+  "development": {
+    "config_id": "development",
+    "app_name": "Development",
+    "debug": true,
+    "port": 2000,
+    "mongoDb": {
+      "host": "localhost",
+      "user": "",
+      "pass": "",
+      "port": 27017,
+      "database": "dodo",
+      "uri": "mongodb+srv://AnshulD12:Angelic.007@cluster0-b06dh.mongodb.net/talview?retryWrites=true&w=majority"
+    }
+  },
+  "docker": {
+    "config_id": "development",
+    "app_name": "Docker",
+    "debug": true,
+    "port": 2000,
+    "mongoDb": {
+      "host": "docker.for.mac.localhost",
+      "user": "",
+      "pass": "",
+      "port": 27017,
+      "database": "dodo",
+      "uri": "mongodb+srv://AnshulD12:Angelic.007@cluster0-b06dh.mongodb.net/talview?retryWrites=true&w=majority"
+    }
+  },
+  "testing": {
+    "config_id": "testing",
+    "app_name": "Testing",
+    "debug": true,
+    "port": 2000,
+    "mongoDb": {
+      "host": "localhost",
+      "user": "",
+      "pass": "",
+      "port": 27017,
+      "database": "dodo",
+      "uri": "mongodb+srv://AnshulD12:Angelic.007@cluster0-b06dh.mongodb.net/talview-tests?retryWrites=true&w=majority"
+    }
+  },
+  "production": {
+    "config_id": "production",
+    "app_name": "Production",
+    "debug": false,
+    "port": 2000,
+    "mongoDb": {
+      "host": "localhost",
+      "user": "",
+      "pass": "",
+      "port": 27017,
+      "database": "dodo",
+      "uri": "mongodb+srv://AnshulD12:Angelic.007@cluster0-b06dh.mongodb.net/talview?retryWrites=true&w=majority"
+    }
+  }
+}
