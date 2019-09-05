@@ -15,9 +15,9 @@
   },
   "docker": {
     "config_id": "development",
-    "app_name": "Docker",
+    "app_name": "backend-test",
     "debug": true,
-    "port": 2000,
+    "port": 3111,
     "mongoDb": {
       "host": "docker.for.mac.localhost",
       "user": "",

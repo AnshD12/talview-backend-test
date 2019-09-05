@@ -1,0 +1,13 @@
+version: '3.2'
+
+# Services
+services:
+  nodejs:
+    image: node:10.16
+    build:
+      context: .
+    command: npm run dev
+    volumes:
+      - ./:/home/node/app
+    ports:
+      - "3111:3111"
