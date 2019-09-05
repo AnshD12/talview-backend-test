@@ -1,0 +1,10 @@
+# package directories
+node_modules
+jspm_packages
+# log directories
+logs
+# files
+uploads
+output
+# Serverless directories
+.serverless
